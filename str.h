@@ -3,7 +3,7 @@
 
 #include "bool.h"
 
-#ifdef WINDOWS
+#if defined(_WIN32) || defined(WIN32)
 const int SYS_PATH_DELIM = '\\';
 #else
 const int SYS_PATH_DELIM = '/';
