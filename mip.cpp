@@ -118,7 +118,7 @@ int image_t::writeMIP(data_t *dat, const int lmMode)
     colorStat_t stat;
     map_t map;
     int i;
-    char name0[MIP_NAME0_LENGTH];
+    char name0[MIP_NAME0_LENGTH + 1];
     unsigned short length;
     switch (lmMode)
     {
